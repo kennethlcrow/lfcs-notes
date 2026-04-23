@@ -40,6 +40,7 @@
 ## Lab Environment
 
 - [[Lab - Vagrant Setup]] — Ubuntu VMs (ubuntu1, ubuntu2)
+- [[Browser-Terminals]] - Google and GitHub
 
 ## Topic Index
 
