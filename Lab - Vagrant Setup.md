@@ -18,7 +18,9 @@ Both VMs are provisioned automatically via `ubuntu.yml` (Ansible) and a shell pr
 | Command | Description |
 |---|---|
 | `vagrant up` | Start all VMs |
-| `vagrant halt` | Stop all VMs |
+| `vagrant suspend` | Suspend all VMs (saves state to disk) |
+| `vagrant resume` | Resume suspended VMs |
+| `vagrant halt` | Stop all VMs (full shutdown) |
 | `vagrant destroy` | Delete all VMs |
 | `vagrant provision` | Re-run provisioners on running VMs |
 | `vagrant ssh ubuntu1` | SSH into ubuntu1 via Vagrant (no key needed) |
