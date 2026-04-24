@@ -40,6 +40,7 @@
 ## Lab Environment
 
 - [[Lab - Vagrant Setup]] — Ubuntu VMs (ubuntu1, ubuntu2)
+- [[Lab - Hetzner VPS Setup]] — Persistent VPS accessible from home and work
 - [[Browser-Terminals]] - Google and GitHub
 
 ## Topic Index
