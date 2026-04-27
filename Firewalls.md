@@ -1,4 +1,4 @@
-# Firewalld
+# Firewalls
 
 > Part of [[Networking]] | [[00 - LFCS MOC]]
 

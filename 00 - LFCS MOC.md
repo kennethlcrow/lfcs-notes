@@ -62,7 +62,7 @@
 
 ### Networking
 - [[SSH]]
-- [[Firewalld]]
+- [[Firewalls]]
 - [[Network Configuration]]
 - [[DNS & Hostname]]
 

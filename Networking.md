@@ -11,7 +11,7 @@ Networking is one of the two largest exam domains. It covers IP addressing funda
 ### Topics
 
 - [[SSH]] — remote access, key-based auth, SSH tunnels
-- [[Firewalld]] — packet filtering with UFW and iptables/nft
+- [[Firewalls]] — packet filtering with UFW and iptables/nft
 - [[Network Configuration]] — IP addresses, interfaces, routing, bonding/bridging
 - [[DNS & Hostname]] — hostname management, DNS resolution, NTP time sync
 
@@ -80,6 +80,6 @@ sudo lsof -p PID                   # files/sockets open by that process
 ## Related Notes
 
 - [[SSH]]
-- [[Firewalld]]
+- [[Firewalls]]
 - [[Network Configuration]]
 - [[DNS & Hostname]]

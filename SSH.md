@@ -154,6 +154,6 @@ sudo systemctl restart ssh.service        # restart after config changes
 
 ## Related Notes
 
-- [[Firewalld]] — allow port 22 through the firewall
+- [[Firewalls]] — allow port 22 through the firewall
 - [[SSL Certificates]] — TLS is separate from SSH keys
 - [[Networking]]

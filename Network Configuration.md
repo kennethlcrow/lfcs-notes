@@ -215,7 +215,7 @@ Load balancing methods: `round-robin` (default), `least_conn`, `ip_hash`
 
 ## Related Notes
 
-- [[Firewalld]] — control what traffic is allowed
+- [[Firewalls]] — control what traffic is allowed
 - [[DNS & Hostname]] — name resolution
 - [[Kernel Runtime Parameters]] — IP forwarding for NAT/routing
 - [[Networking]]
