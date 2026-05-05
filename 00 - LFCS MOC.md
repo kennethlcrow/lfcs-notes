@@ -78,6 +78,10 @@
 - [[Resource Limits]]
 - [[LDAP Authentication]]
 
+## ChatGPT Study Notes
+
+- [[00 - ChatGPT TEACH ME MOC]] — deep-dive teaching notes with labs and flashcards
+
 ## Meta & Workflow
 
 - [[Git-Workflow]] — how to push updates and view notes at work via GitHub
