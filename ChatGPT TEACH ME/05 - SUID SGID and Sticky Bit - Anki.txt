@@ -1,0 +1,20 @@
+What are SUID, SGID, and sticky bit?;They are special Linux permissions that add extra behavior on top of normal read, write, and execute permissions.;permissions special-permissions
+What does SUID stand for?;SUID stands for Set User ID.;permissions special-permissions
+What does SUID do on an executable file?;It allows the file to run with the permissions of the file owner.;permissions special-permissions
+Where does the SUID symbol appear in `ls -l` output?;It appears as `s` in the owner execute position, such as `-rwsr-xr-x`.;permissions special-permissions
+What is a common example of a SUID program?;`/usr/bin/passwd` is a common SUID program because it lets users change their own passwords safely.;permissions special-permissions
+What does SGID stand for?;SGID stands for Set Group ID.;permissions special-permissions
+What does SGID do on an executable file?;It allows the file to run with the permissions of the group that owns the file.;permissions special-permissions
+Where does the SGID symbol appear in `ls -l` output?;It appears as `s` in the group execute position, such as `-rwxr-sr-x`.;permissions special-permissions
+What does SGID do on a directory?;It causes new files created inside the directory to inherit the directory's group ownership.;permissions special-permissions
+Why is SGID useful on shared directories?;It helps files created by different users stay associated with the shared team group.;permissions special-permissions
+What does the sticky bit do on a directory?;It prevents users from deleting or renaming files owned by other users inside a shared writable directory.;permissions special-permissions
+Where does the sticky bit symbol appear in `ls -ld` output?;It appears as `t` in the others execute position, such as `drwxrwxrwt`.;permissions special-permissions
+What is a common example of a sticky bit directory?;`/tmp` commonly uses the sticky bit because many users can write there.;permissions special-permissions
+What command sets SUID symbolically?;`chmod u+s [file]` sets SUID on a file.;permissions special-permissions
+What command sets SGID symbolically?;`chmod g+s [file-or-directory]` sets SGID.;permissions special-permissions
+What command sets the sticky bit symbolically?;`chmod +t [directory]` sets the sticky bit on a directory.;permissions special-permissions
+What leading numeric value represents SUID?;The leading numeric value `4` represents SUID.;permissions special-permissions
+What leading numeric value represents SGID?;The leading numeric value `2` represents SGID.;permissions special-permissions
+What leading numeric value represents the sticky bit?;The leading numeric value `1` represents the sticky bit.;permissions special-permissions
+Why should SUID be used carefully?;SUID can allow programs to run with elevated owner permissions, so unsafe SUID programs can create security risks.;permissions special-permissions

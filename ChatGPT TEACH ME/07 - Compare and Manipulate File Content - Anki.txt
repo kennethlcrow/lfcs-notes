@@ -1,0 +1,15 @@
+What is the purpose of the diff command?;The diff command compares two text files line by line and shows differences.;file-comparison diff
+What is the basic structure of the diff command?;diff [options] file1 file2;file-comparison diff
+In diff output, what does < mean?;< shows a line from the first file.;file-comparison diff
+In diff output, what does > mean?;> shows a line from the second file.;file-comparison diff
+What does the c letter mean in basic diff output?;c means a line was changed between the two files.;file-comparison diff
+What does the a letter mean in basic diff output?;a means content was added in the second file compared with the first.;file-comparison diff
+What does the d letter mean in basic diff output?;d means content was deleted from the first file compared with the second.;file-comparison diff
+What does diff -c do?;diff -c shows differences with surrounding context lines.;file-comparison diff
+In context diff output, what does ! mean?;! marks a line that changed.;file-comparison diff
+In context diff output, what does + mean?;+ marks a line that was added.;file-comparison diff
+In context diff output, what does - mean?;- marks a line that was removed.;file-comparison diff
+What does diff -y do?;diff -y displays file differences side by side.;file-comparison diff
+In side-by-side diff output, what does | mean?;| means the lines on the left and right are different.;file-comparison diff
+Why should you copy a file before editing it?;Copying creates a safe backup or working version before making changes.;file-comparison diff
+What is the difference between > and >>?;> replaces file content, while >> appends to the end of the file.;file-comparison diff

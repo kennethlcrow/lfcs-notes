@@ -1,0 +1,15 @@
+What does grep do?;grep searches text and prints lines that match a pattern.;grep text-search
+What is the basic grep command structure?;grep [options] 'pattern' filename;grep text-search
+In grep syntax, what is the pattern?;The pattern is the text you want grep to search for.;grep text-search
+Why should grep patterns often be wrapped in single quotes?;Single quotes help prevent the shell from interpreting spaces or special characters in the pattern.;grep text-search
+Is grep case-sensitive by default?;Yes. By default, grep treats lowercase and uppercase letters as different.;grep text-search
+Which grep option ignores case?;-i makes grep search without caring about uppercase or lowercase letters.;grep text-search
+What does grep print when it finds a match?;It prints the entire line that contains the matching text.;grep text-search
+What usually happens when grep finds no matches?;It usually prints no output.;grep text-search
+Which grep option shows line numbers?;-n shows the line number for each matching line.;grep text-search
+Which grep option shows lines that do not match the pattern?;-v inverts the match and shows lines that do not contain the pattern.;grep text-search
+Which grep option searches through directories recursively?;-r searches through files in a directory and its subdirectories.;grep text-search
+What does grep 'error' app.log do?;It searches app.log and prints lines containing the exact lowercase text error.;grep text-search
+Why might grep 'error' not find a line containing Error?;Because grep is case-sensitive by default, and Error has a capital E.;grep text-search
+What is a common mistake when searching for a phrase with grep?;Forgetting to quote the phrase, which can cause the shell to split it into separate arguments.;grep text-search
+In LFCS work, why is grep important?;It helps quickly filter useful information from large files such as logs and configuration files.;grep text-search

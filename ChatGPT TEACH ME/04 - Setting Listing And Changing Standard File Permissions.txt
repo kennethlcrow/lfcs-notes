@@ -1,0 +1,16 @@
+What command lists files with detailed permission information?;`ls -l` lists files in long format, including file type, permissions, owner, group, size, and timestamp.;permissions
+In `ls -l` output, what does the first character of the permission string show?;It shows the file type, such as `-` for a regular file, `d` for a directory, or `l` for a symbolic link.;permissions
+What are the three standard Linux permission types?;The three standard permissions are read (`r`), write (`w`), and execute (`x`).;permissions
+What does read permission mean on a regular file?;Read permission on a regular file allows you to view the file's contents.;permissions
+What does write permission mean on a directory?;Write permission on a directory allows you to create, delete, or rename files inside that directory.;permissions
+What does execute permission mean on a directory?;Execute permission on a directory allows you to enter it with `cd` and access items inside if their names are known.;permissions
+What are the three user categories for Linux permissions?;The categories are user/owner (`u`), group (`g`), and others (`o`).;permissions
+What does `chmod u+x script.sh` do?;It adds execute permission for the file owner on `script.sh`.;permissions
+What does `chmod g-w file.txt` do?;It removes write permission from the group on `file.txt`.;permissions
+What does `chmod o=r file.txt` do?;It sets permissions for others to exactly read-only on `file.txt`.;permissions
+In numeric permissions, what values represent read, write, and execute?;Read is `4`, write is `2`, and execute is `1`.;permissions
+What permission string does numeric mode `644` represent?;`644` represents `rw-r--r--`: owner can read/write, group can read, and others can read.;permissions
+What is `600` commonly used for?;`600` is commonly used for private files because only the owner can read and write them.;permissions
+What is `755` commonly used for?;`755` is commonly used for directories and scripts where the owner needs full access and others need read/execute access.;permissions
+Why do scripts need execute permission?;Scripts need execute permission to be run directly, such as with `./script.sh`.;permissions
+What is the basic purpose of the sticky bit?;The sticky bit is commonly used on shared directories so users can usually delete only their own files.;permissions

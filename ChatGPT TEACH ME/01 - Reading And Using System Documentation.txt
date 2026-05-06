@@ -1,0 +1,18 @@
+What is the main purpose of Linux system documentation?;To help you find command usage, options, and related information without memorizing everything.;documentation
+What does the `--help` option usually show?;A quick summary of command usage and common options.;documentation
+What is the basic structure of most Linux commands?;`command [options] [arguments]`;documentation
+In command structure, what is an option?;An option changes how a command behaves.;documentation
+In command structure, what is an argument?;An argument is the target that the command acts on.;documentation
+What does the `man` command do?;It opens the manual page for a command, file format, or system topic.;documentation
+Which man page section is commonly used for regular user commands?;Section 1.;documentation
+Which man page section is commonly used for file formats and configuration files?;Section 5.;documentation
+Which man page section is commonly used for system administration commands?;Section 8.;documentation
+Why might you run `man 5 passwd` instead of just `man passwd`?;To read documentation for the `/etc/passwd` file format instead of the command.;documentation
+Inside a man page, what key quits the page?;`q`;documentation
+Inside a man page, how do you search for a word?;Type `/word` and press Enter.;documentation
+What does `apropos` do?;It searches man page names and descriptions for a keyword.;documentation
+Why is `apropos` useful?;It helps you find a command when you forgot the exact command name.;documentation
+What does `apropos -s 1,8 keyword` do?;It searches only man page sections 1 and 8 for the keyword.;documentation
+What is Tab completion used for?;It completes command names, file names, and paths to save time and reduce mistakes.;documentation
+What should you do if a command has too many options to remember?;Use `--help`, `man`, or `apropos` to look up the needed option.;documentation
+Why is practicing documentation tools important for LFCS?;Because quickly finding correct command syntax is a practical exam skill.;documentation

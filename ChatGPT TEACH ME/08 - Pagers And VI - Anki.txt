@@ -1,0 +1,19 @@
+What is a pager in Linux?;A pager is a program that displays long text one screen at a time.;pagers vim text-editing
+What are two common Linux pagers?;Two common pagers are less and more.;pagers vim text-editing
+What is the basic command structure for opening a file with less?;Use less filename, where less is the command and filename is the file to view.;pagers vim text-editing
+How do you quit less?;Press q to quit less.;pagers vim text-editing
+How do you search for a word inside less?;Type /word and press Enter.;pagers vim text-editing
+What does less -i filename do?;It opens a file in less and makes searches ignore case.;pagers vim text-editing
+What is the main difference between less and more?;less is more flexible and can move backward easily, while more is simpler and mostly moves forward.;pagers vim text-editing
+What does Vim stand for?;Vim stands for VI improved.;pagers vim text-editing
+Why is Vim called mode-sensitive?;Vim is mode-sensitive because keys behave differently depending on the current mode.;pagers vim text-editing
+What are the two most important beginner Vim modes?;Normal mode and Insert mode.;pagers vim text-editing
+How do you enter Insert mode in Vim?;Press i.;pagers vim text-editing
+How do you return to Normal mode in Vim?;Press Esc.;pagers vim text-editing
+What Vim command saves and quits?;:wq saves and quits.;pagers vim text-editing
+What Vim command quits without saving changes?;:q! quits without saving changes.;pagers vim text-editing
+How do you search for a word in Vim?;In Normal mode, type /word and press Enter.;pagers vim text-editing
+How do you search case-insensitively in Vim for one search?;Use /\cword, replacing word with the search term.;pagers vim text-editing
+What does yy do in Vim Normal mode?;yy copies the current line.;pagers vim text-editing
+What does dd do in Vim Normal mode?;dd cuts or deletes the current line.;pagers vim text-editing
+What does p do in Vim Normal mode?;p pastes below the current line.;pagers vim text-editing

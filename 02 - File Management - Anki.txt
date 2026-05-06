@@ -1,0 +1,18 @@
+What does the Linux root directory represent?;The top of the Linux file system tree, written as `/`.;file-management
+What command shows your current working directory?;`pwd` shows the full path of the directory your terminal is currently in.;file-management
+What is an absolute path?;A path that starts from the root directory `/` and works no matter where you currently are.;file-management
+What is a relative path?;A path that starts from your current working directory.;file-management
+What does `ls` do?;It lists files and directories.;file-management
+What does `ls -la` show?;It lists files and directories in long format, including hidden files.;file-management
+What does the `-h` option do with `ls -l`?;It shows file sizes in a human-readable format.;file-management
+What command changes directories?;`cd [path]` changes to the specified directory.;file-management
+What does `cd ..` do?;It moves up to the parent directory.;file-management
+What does `cd` by itself do?;It returns you to your home directory.;file-management
+What command creates an empty file?;`touch [filename]` creates an empty file if it does not already exist.;file-management
+What command creates a directory?;`mkdir [directory-name]` creates a new directory.;file-management
+What is the basic structure of the `cp` command?;`cp [source] [destination]` copies a file from the source to the destination.;file-management
+Why is `cp -r` used for directories?;The `-r` option copies a directory recursively, including its contents.;file-management
+What can the `mv` command do?;It can move files or directories and can also rename them.;file-management
+What is the basic structure of the `rm` command?;`rm [filename]` removes a file.;file-management
+Why should `rm -r` be used carefully?;It removes a directory and its contents recursively, and deleted data may be difficult to recover.;file-management
+What must exist before moving a file into a directory?;The source file and destination directory must both exist.;file-management

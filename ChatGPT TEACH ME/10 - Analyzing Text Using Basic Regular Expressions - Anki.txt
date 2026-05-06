@@ -1,0 +1,15 @@
+What is a regular expression?;A regular expression is a search pattern used to find text that matches a specific structure.;regex grep text-processing
+What is the basic structure of a grep command?;The basic structure is grep 'pattern' file, where grep searches, the pattern describes what to find, and the file is searched.;regex grep text-processing
+What does ^ mean in a regular expression?;^ matches the start of a line.;regex grep text-processing
+What does $ mean in a regular expression?;$ matches the end of a line.;regex grep text-processing
+What does . mean in a regular expression?;. matches any single character.;regex grep text-processing
+What does * mean in a regular expression?;* means zero or more repetitions of the previous character or pattern.;regex grep text-processing
+What does [0-9] match?;[0-9] matches one digit from 0 through 9.;regex grep text-processing
+What does grep -n do?;grep -n shows matching lines with their line numbers.;regex grep text-processing
+What does grep -v do?;grep -v shows lines that do not match the pattern.;regex grep text-processing
+Why use grep -E?;grep -E enables extended regular expressions, making operators like +, ?, {}, and | easier to use.;regex grep text-processing
+What does + mean when used with grep -E?;+ means one or more repetitions of the previous character or pattern.;regex grep text-processing
+What does ? mean when used with grep -E?;? means the previous character or pattern is optional.;regex grep text-processing
+What does {3} mean when used with grep -E?;{3} means the previous character or pattern must repeat exactly three times.;regex grep text-processing
+What does | mean when used with grep -E?;| means or, allowing either pattern to match.;regex grep text-processing
+Why do you write \. when searching for a real period?;Because . normally means any single character, so \. escapes it and matches a literal period.;regex grep text-processing

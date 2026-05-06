@@ -1,0 +1,15 @@
+What is the basic structure of the find command?;`find [location] [search-criteria]`;file-search find
+What does the location part of a find command tell Linux?;It tells `find` where to start searching.;file-search find
+What does `.` mean in `find . -name notes.txt`?;It means the current directory.;file-search find
+What does `find . -name notes.txt` do?;It searches from the current directory for files or directories named `notes.txt`.;file-search find
+What is the difference between `-name` and `-iname`?;`-name` is case-sensitive, while `-iname` ignores capitalization.;file-search find
+What does `find . -type f` search for?;It searches for regular files under the current directory.;file-search find
+What does `find . -type d` search for?;It searches for directories under the current directory.;file-search find
+What does the `*` mean in `"*.txt"`?;It means anything, so `"*.txt"` matches names ending in `.txt`.;file-search find
+Why should patterns like `"*.log"` usually be quoted?;Quoting helps pass the pattern to `find` instead of letting the shell expand it early.;file-search find
+What does `find . -size +10M` search for?;It searches for items larger than 10 megabytes under the current directory.;file-search find
+What does the plus sign mean in `-size +10M`?;It means larger than the given size.;file-search find
+What does `-mmin` search by?;It searches by modification time measured in minutes.;file-search find
+What does `find . -mmin -10` show?;It shows files modified less than 10 minutes ago.;file-search find
+What does `-mtime` search by?;It searches by modification time measured in days.;file-search find
+How can you find regular `.log` files under the current directory?;Use `find . -type f -name "*.log"`.;file-search find

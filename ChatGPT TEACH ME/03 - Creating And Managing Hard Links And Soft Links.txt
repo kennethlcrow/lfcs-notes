@@ -1,0 +1,15 @@
+What is a hard link?;A hard link is another filename that points to the same inode as an existing file.;file-management
+What is a soft link?;A soft link, or symbolic link, is a file that points to a path rather than directly to an inode.;file-management
+What is an inode?;An inode is a filesystem structure that stores file metadata and points to the file's data blocks.;file-management
+What command creates a hard link?;Use `ln target link_name` to create a hard link.;file-management
+What command creates a soft link?;Use `ln -s target link_name` to create a soft link.;file-management
+What does the `-s` option mean in the `ln` command?;The `-s` option tells `ln` to create a symbolic link instead of a hard link.;file-management
+How can you view inode numbers for files?;Use `ls -i` or `ls -li` to view inode numbers.;file-management
+How can you tell whether two files are hard links to the same data?;They have the same inode number when viewed with `ls -li`.;file-management
+What happens if one hard link is deleted?;The data remains available as long as at least one hard link still points to the inode.;file-management
+What happens if the target of a soft link is deleted?;The soft link becomes broken because it points to a path that no longer exists.;file-management
+Can hard links usually be created for directories?;No, hard links usually cannot be created for directories.;file-management
+Can hard links cross filesystems?;No, hard links must stay on the same filesystem.;file-management
+Can soft links point to directories?;Yes, soft links can point to directories.;file-management
+Can soft links cross filesystems?;Yes, soft links can point to paths on other filesystems.;file-management
+What command shows the target path of a symlink?;Use `readlink link_name` to show the path a symlink points to.;file-management

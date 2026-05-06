@@ -1,0 +1,18 @@
+What does `pwd` show?;It shows the current working directory.;file-management
+What is the root directory in Linux?;The root directory is the top of the file system tree and is written as `/`.;file-management
+What is an absolute path?;An absolute path starts from `/` and gives the full location from the root directory.;file-management
+What is a relative path?;A relative path starts from your current working directory.;file-management
+What does `ls -la` do?;It lists files and directories in long format and includes hidden files.;file-management
+What does the `-h` option do with `ls -l`?;It makes file sizes human-readable.;file-management
+What does `cd ..` do?;It moves up one directory level.;file-management
+What does `cd` by itself do?;It returns you to your home directory.;file-management
+What does `touch file.txt` do?;It creates an empty file named `file.txt` if it does not already exist.;file-management
+What does `mkdir notes` do?;It creates a directory named `notes`.;file-management
+What is the basic structure of the `cp` command for files?;`cp source destination` copies a file from the source to the destination.;file-management
+Why is `cp -r` used for directories?;The `-r` option copies a directory and its contents recursively.;file-management
+What is the basic structure of the `mv` command?;`mv source destination` moves or renames a file or directory.;file-management
+How can `mv` rename a file?;Use the old file name as the source and the new file name as the destination.;file-management
+What does `rm file.txt` do?;It deletes the file named `file.txt`.;file-management
+Why should you be careful with `rm`?;Files deleted with `rm` usually do not go to a recycle bin.;file-management
+Why is `rm -r` used for directories?;It removes a directory and its contents recursively.;file-management
+What should you check before deleting files or directories?;Check your current location with `pwd` and confirm the target with `ls`.;file-management
